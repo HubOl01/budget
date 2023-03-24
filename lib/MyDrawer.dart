@@ -18,7 +18,7 @@ class MyDrawer extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.green[800],
               ),
-              child: Text("Мой бюджет"),
+              child: const Center(child: Text("Мой бюджет", style: TextStyle(color: Colors.white, fontSize: 25),), ),
             ),
             ListTile(
               leading: Icon(Icons.money),
