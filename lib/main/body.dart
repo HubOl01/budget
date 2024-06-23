@@ -89,9 +89,7 @@ class _bodyState extends State<body> {
               SizedBox(
                 height: size.height - 50,
                 child: ScrollConfiguration(
-                  behavior: const ScrollBehavior(
-                      androidOverscrollIndicator:
-                          AndroidOverscrollIndicator.glow),
+                  behavior: const ScrollBehavior(),
                   child: GlowingOverscrollIndicator(
                     axisDirection: AxisDirection.down,
                     color: Colors.green[800]!,
